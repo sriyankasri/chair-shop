@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container{
+    width: 960px;
+    margin: 0,auto;
+    }
+.button{
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgb(106, 180, 106);
+    padding: 5px;
+    border-radius: 20px;
+
+}
+.btn-btn-big{
+    font-size: 20px;
+    background-color: rgb(60, 177, 60);
+    border-radius:20px;
+    padding: 10px 10px;
+}
+.btn:hover{
+    background-color: rgb(96, 241, 96)
+}
+.chair-price{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 10px;
+    }
+.chair{
+    box-shadow: 0 5px 5px 0 rgb(123, 219, 123);
+    margin-bottom: 10px;
+}
+.chair img{
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+    margin-bottom: 30px;
+}
+.grid-3-cols{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 60px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.testimonial-box{
+    grid-column: 2 / -1;
+    background-color: rgb(119, 241, 119);
+    
+}
+.testimonial-section{
+    border-radius: 18px;
+    border-bottom-right-radius: 30px;
+}
+.header-text-box{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+.Lakshman{
+    width: auto;
+    height:20px;
+    stroke: rgb(113, 224, 113);
+}
+li{
+    list-style: none;
+}
+.sri{
+margin-bottom: 15px;
+}
+footer{
+text-align: center;
+margin-top: 10px;
+font-size: 20px;
+}
+.chair-details{
+    margin-left: 25px;
+}
